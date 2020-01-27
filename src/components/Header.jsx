@@ -11,7 +11,7 @@ const Header = () => (
     <div className='header__img'>
       <div className='header__menu'>
         <div className='header__menu--profile'>
-          <img src='/assets/user-icon.png' alt='user' />
+          <img src='../assets/user-icon.png' alt='user' />
           <p>Perfil</p>
         </div>
         <ul>
