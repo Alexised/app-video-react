@@ -20,6 +20,7 @@ const CarrouselItem = ({ cover, title, year, contenRating, duration }) => (
   </div>
 );
 
+
 CarrouselItem.propTypes = {
   cover: PropTypes.string,
   title: PropTypes.string,
