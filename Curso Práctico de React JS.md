@@ -644,3 +644,9 @@ Component.propTypes = {
   list: PropTypes.array, // opcional
 };
 ```
+
+# Debuggeando React con React DevTools
+
+**React DevTools** es una herramienta muy parecida al Inspector de Elementos. Nos permite visualizar, analizar e interactuar con nuestros componentes de React desde el navegador.
+
+Encuentra más información sobre está herramienta en: [github.com/facebook/react-devtools](https://github.com/facebook/react-devtools).

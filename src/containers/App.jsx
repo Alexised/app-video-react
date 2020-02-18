@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-props-no-spreading */
-
+import React from 'react';
 import Header from '../components/Header';
 import Search from '../components/Search';
 import Categories from '../components/Categories';
@@ -13,7 +13,6 @@ import useInitialState from '../hooks/useInitialState';
 const API = 'http://localhost:3000/initalState';
 const App = () => {
   const initialState = useInitialState(API);
-
   return initialState.length === 0 ? <h1>Loading...</h1> : (
     <div className='App'>
       <Header />
